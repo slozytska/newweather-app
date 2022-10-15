@@ -14,4 +14,22 @@ h1 {
   font-weight: 100;
   line-height: 28px;
   text-align: left;
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: rgb(26, 17, 80, 0.8);
+  font-size: 16px;
+  text-align: left;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
