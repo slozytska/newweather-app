@@ -27,10 +27,10 @@
       <div class="weather-app-wrapper">
         <div class="Weather">
           <div class="overview">
-            <h1>New York</h1>
+            <h1 id="city"></h1>
             <ul>
-              <li>Friday 5:00</li>
-              <li>rainy</li>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
@@ -39,19 +39,19 @@
                 <img
                   src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png"
                   alt="rainy"
+                  id="icon"
                   class="float-left"
                 />
                 <div class="float-left">
-                  <strong>12</strong>
+                  <strong id="temperature"></strong>
                   <span class="units">°C | <a href="#">°F</a></span>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 73%</li>
-                <li>wind: 2 km/ch</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>wind: <span id="wind"></span> km/ch</li>
               </ul>
             </div>
           </div>
